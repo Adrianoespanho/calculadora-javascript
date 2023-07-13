@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt--br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<img src="imagens/mar.jpg" alt="Descrição da imagem"width="1700">
+<link rel="stylesheet" href="index.css">
+<body>
+    <div class="fundo">
+        <div class="calculadora">
+            <h2>Calculadora</i></h2>
+
+            <p id="resultado"></p>
+
+            </table>
+
+            <table>
+                <tr>
+                    <td><button class="botao" onclick="clearDisplay('C')">C</button></td>
+                    <td><button class="botao"onclick="backspace('CE')">CE</button></td>
+                            
+                    </td>
+                    <td><button class="botao"onclick="addToDisplay('/')">/</button></td>
+                    <td><button class="botao"onclick="addToDisplay('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao"onclick="addToDisplay('7')">7</button></td>
+                    <td><button class="botao"onclick="addToDisplay('8')">8</button></td>
+                    <td><button class="botao"onclick="addToDisplay('9')">9</button></td>
+                    <td><button class="botao"onclick="addToDisplay('-')">- </button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao"onclick="addToDisplay('4')">4</button></td>
+                    <td><button class="botao"onclick="addToDisplay('5')">5</button></td>
+                    <td><button class="botao"onclick="addToDisplay('6')">6</button></td>
+                    <td><button class="botao"onclick="addToDisplay('+')">+ </button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao"onclick="addToDisplay('1')">1</button></td>
+                    <td><button class="botao"onclick="addToDisplay('2')">2</button></td>
+                    <td><button class="botao"onclick="addToDisplay('3')">3</button></td>
+                    <td rowspan="2"><button class="botao" style="height: 106px;"onclick="calculate('=')">= </button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button class="botao" style="width: 106px;"onclick="addToDisplay('0')">0 </button></td>
+                </tr>
+            </table>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
